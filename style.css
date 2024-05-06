@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+img {
+    width: 40px;
+}
+
+.nav__1 h1 {
+    font-weight: bold;
+}
+.navbar{
+    border-bottom: solid black 1px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.navbar,
+.nav__1,
+.nav__2,
+.nav__3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.nav__2 button:hover {
+    cursor:pointer;
+    background-color: rgb(127, 107, 171);
+    
+ 
+}   
+.saleimage img{
+    width:100%;
+    background-color: rgb(193, 90, 193);
+}
+
+.nav__2 button {
+   background-color: white;
+   border-style: none;
+   color: black;
+    border-style: none;
+    width: 70px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+
+  
+}
+.saleimage{
+    position: relative;
+}
+.saleimage__text{
+    width: 30%;
+    border: solid black 2px;
+    padding: 2%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+   
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    row-gap: 5px;
+    
+}
+.title__1 h1{
+    font-size: 65px;
+}
+.title__3{
+  
+    border:  solid black 1px;
+    border-radius: 30px;}
+    .title__3total{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    .title__3total button{
+        background-color: rgb(100, 219, 179);
+        width:50px;
+        border-radius: 30px;
+    }
+   
+   
+
+ .title__2{
+    row-gap: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 15px;
+}
+.title__2 button{
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    gap: 10px;
+    width: 70px;
+
+} .title__3 input{
+border: none;
+}
+.choice{
+    padding: 10px;
+}
+.travelcard__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+.card1,.card2,.card3,.card4{
+    width: 200px
+}
+.card1 img,.card2 img,.card3 img,.card4 img{
+    height: 50%;
+    width: 100%;
+}
+.topics{padding: 10px;
+display: flex;
+gap :20px;}
